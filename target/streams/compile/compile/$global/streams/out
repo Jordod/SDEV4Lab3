@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/media/sf_student/lab3/app/views/listProducts.scala.html:31:29: value ProdutCtrl is not a member of object controllers.routes[0m
+[0m[[0m[31merror[0m] [0m[0m      <form action="@routes.ProdutCtrl.listProducts(catId)" method="GET">[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/sf_student/lab3/app/views/listProducts.scala.html:31:53: not found: value catId[0m
+[0m[[0m[31merror[0m] [0m[0m      <form action="@routes.ProdutCtrl.listProducts(catId)" method="GET">[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/sf_student/lab3/app/views/productAdmin/listProducts.scala.html:15:57: too many arguments (2) for method listProducts: (cat: Long)play.api.mvc.Call[0m
+[0m[[0m[31merror[0m] [0m[0m      <a href="@routes.AdminProductCtrl.listProducts(0, filter)" class="list-group-item">All Categories</a>[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/sf_student/lab3/app/views/productAdmin/listProducts.scala.html:17:65: too many arguments (2) for method listProducts: (cat: Long)play.api.mvc.Call[0m
+[0m[[0m[31merror[0m] [0m[0m        <a href="@routes.AdminProductCtrl.listProducts(c.getId, filter)" class="list-group-item">@c.getName[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
